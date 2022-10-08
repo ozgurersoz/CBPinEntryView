@@ -1,4 +1,4 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.7
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -9,6 +9,6 @@ let package = Package(
         .library(name: "CBPinEntryView", targets: ["CBPinEntryView"]),
     ],
     targets: [
-        .target(name: "CBPinEntryView")
+        .target(name: "CBPinEntryView", path: "Sources")
     ]
 )
